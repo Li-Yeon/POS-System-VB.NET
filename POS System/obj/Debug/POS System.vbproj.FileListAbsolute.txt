@@ -1,0 +1,20 @@
+C:\Users\mekal\source\repos\POS System\POS System\bin\Debug\POS System.exe.config
+C:\Users\mekal\source\repos\POS System\POS System\bin\Debug\POS System.exe
+C:\Users\mekal\source\repos\POS System\POS System\bin\Debug\POS System.pdb
+C:\Users\mekal\source\repos\POS System\POS System\bin\Debug\POS System.xml
+C:\Users\mekal\source\repos\POS System\POS System\obj\Debug\POS System.vbprojAssemblyReference.cache
+C:\Users\mekal\source\repos\POS System\POS System\obj\Debug\POS_System.Login.resources
+C:\Users\mekal\source\repos\POS System\POS System\obj\Debug\POS_System.Resources.resources
+C:\Users\mekal\source\repos\POS System\POS System\obj\Debug\POS System.vbproj.GenerateResource.cache
+C:\Users\mekal\source\repos\POS System\POS System\obj\Debug\POS System.vbproj.CoreCompileInputs.cache
+C:\Users\mekal\source\repos\POS System\POS System\obj\Debug\POS System.exe
+C:\Users\mekal\source\repos\POS System\POS System\obj\Debug\POS System.xml
+C:\Users\mekal\source\repos\POS System\POS System\obj\Debug\POS System.pdb
+C:\Users\mekal\source\repos\POS System\POS System\bin\Debug\JTextBox.dll
+C:\Users\mekal\source\repos\POS System\POS System\obj\Debug\POS System.vbproj.CopyComplete
+C:\Users\mekal\source\repos\POS System\POS System\bin\Debug\JMetroTextBox.dll
+C:\Users\mekal\source\repos\POS System\POS System\bin\Debug\JTextBox2.dll
+C:\Users\mekal\source\repos\POS System\POS System\bin\Debug\FlatButton.dll
+C:\Users\mekal\source\repos\POS System\POS System\bin\Debug\JImageButton.dll
+C:\Users\mekal\source\repos\POS System\POS System\bin\Debug\JMaterialTextbox.dll
+C:\Users\mekal\source\repos\POS System\POS System\bin\Debug\JThinButton.dll
