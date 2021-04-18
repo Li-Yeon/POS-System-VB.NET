@@ -33,15 +33,18 @@ Partial Class Login
         Me.Label1 = New System.Windows.Forms.Label()
         Me.companyLogo = New System.Windows.Forms.PictureBox()
         Me.btnLogin = New JImageButton.JImageButton()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.companyLogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(82, Byte), Integer), CType(CType(136, Byte), Integer))
+        Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.companyLogo)
         Me.Panel1.Location = New System.Drawing.Point(-2, -2)
         Me.Panel1.Name = "Panel1"
@@ -148,6 +151,16 @@ Partial Class Login
         Me.btnLogin.TabIndex = 13
         Me.btnLogin.Zoom = 2
         '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(549, 11)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(18, 18)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 1
+        Me.PictureBox3.TabStop = False
+        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -170,6 +183,7 @@ Partial Class Login
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.companyLogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -184,4 +198,5 @@ Partial Class Login
     Friend WithEvents Label1 As Label
     Friend WithEvents companyLogo As PictureBox
     Friend WithEvents btnLogin As JImageButton.JImageButton
+    Friend WithEvents PictureBox3 As PictureBox
 End Class
