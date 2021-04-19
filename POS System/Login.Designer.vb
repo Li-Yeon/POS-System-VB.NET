@@ -24,6 +24,8 @@ Partial Class Login
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.companyLogo = New System.Windows.Forms.PictureBox()
         Me.txtUser = New System.Windows.Forms.TextBox()
         Me.pnlUser = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -31,14 +33,13 @@ Partial Class Login
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.txtPass = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.companyLogo = New System.Windows.Forms.PictureBox()
         Me.btnLogin = New JImageButton.JImageButton()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.companyLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.companyLogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -50,6 +51,28 @@ Partial Class Login
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(578, 239)
         Me.Panel1.TabIndex = 4
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(549, 11)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(18, 18)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 1
+        Me.PictureBox3.TabStop = False
+        '
+        'companyLogo
+        '
+        Me.companyLogo.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.companyLogo.Image = CType(resources.GetObject("companyLogo.Image"), System.Drawing.Image)
+        Me.companyLogo.Location = New System.Drawing.Point(178, 11)
+        Me.companyLogo.Name = "companyLogo"
+        Me.companyLogo.Size = New System.Drawing.Size(223, 222)
+        Me.companyLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.companyLogo.TabIndex = 0
+        Me.companyLogo.TabStop = False
         '
         'txtUser
         '
@@ -122,18 +145,6 @@ Partial Class Login
         Me.Label1.TabIndex = 12
         Me.Label1.Text = "LOGIN"
         '
-        'companyLogo
-        '
-        Me.companyLogo.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.companyLogo.Image = CType(resources.GetObject("companyLogo.Image"), System.Drawing.Image)
-        Me.companyLogo.Location = New System.Drawing.Point(178, 11)
-        Me.companyLogo.Name = "companyLogo"
-        Me.companyLogo.Size = New System.Drawing.Size(223, 222)
-        Me.companyLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.companyLogo.TabIndex = 0
-        Me.companyLogo.TabStop = False
-        '
         'btnLogin
         '
         Me.btnLogin.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
@@ -151,15 +162,16 @@ Partial Class Login
         Me.btnLogin.TabIndex = 13
         Me.btnLogin.Zoom = 2
         '
-        'PictureBox3
+        'Label2
         '
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(549, 11)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(18, 18)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 1
-        Me.PictureBox3.TabStop = False
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Adobe Heiti Std R", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label2.Location = New System.Drawing.Point(252, 538)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(71, 15)
+        Me.Label2.TabIndex = 14
+        Me.Label2.Text = "POS System"
         '
         'Login
         '
@@ -167,6 +179,7 @@ Partial Class Login
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(574, 562)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox2)
@@ -180,10 +193,10 @@ Partial Class Login
         Me.Name = "Login"
         Me.Text = "Login"
         Me.Panel1.ResumeLayout(False)
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.companyLogo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.companyLogo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -199,4 +212,5 @@ Partial Class Login
     Friend WithEvents companyLogo As PictureBox
     Friend WithEvents btnLogin As JImageButton.JImageButton
     Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Label2 As Label
 End Class
